@@ -1,0 +1,58 @@
+[
+  {
+    "model": "menus.menuitem",
+    "pk": 2,
+    "fields": {
+      "name": "Lada Granta",
+      "slug": "lada-granta",
+      "description": "Lada Granta — семейство переименованных российских переднеприводных автомобилей малого класса Волжского автомобильного завода, ранее носивших название «Лада Калина». Выпускается с 2011 года.",
+      "image": "menus_images/orig.jpg",
+      "price": "16000.00",
+      "discount": "3.00",
+      "quantity": 4,
+      "menu": 16
+    }
+  },
+  {
+    "model": "menus.menuitem",
+    "pk": 3,
+    "fields": {
+      "name": "Lada Vesta",
+      "slug": "lada-vesta",
+      "description": "Lada Vesta — семейство российских автомобилей среднего класса, выпускаемых автоконцерном «АвтоВАЗ» с 25 сентября 2015 года в кузове седан, с 2017 года — универсал. Заменило семейство LADA Priora в модельной линейке.",
+      "image": "menus_images/ed8bbfcadc6da088709944844404e6563234c7c5.jpg",
+      "price": "17000.00",
+      "discount": "0.00",
+      "quantity": 6,
+      "menu": 16
+    }
+  },
+  {
+    "model": "menus.menuitem",
+    "pk": 4,
+    "fields": {
+      "name": "BMW M5",
+      "slug": "bmw-m5",
+      "description": "BMW M5 2025 года — самый мощный и тяжёлый автомобиль серии M5. Он оснащён гибридной трансмиссией: 4,4-литровым двигателем V-8 с двойным турбонаддувом и электродвигателем, встроенным в восьмиступенчатую коробку передач.",
+      "image": "menus_images/scale_1200.jpg",
+      "price": "98400.00",
+      "discount": "0.00",
+      "quantity": 1,
+      "menu": 19
+    }
+  },
+  {
+    "model": "menus.menuitem",
+    "pk": 5,
+    "fields": {
+      "name": "Hyundai Solaris",
+      "slug": "hyundai-solaris",
+      "description": "Hyundai Solaris — субкомпактный автомобиль южнокорейской компании Hyundai Motors, локализованная версия автомобиля Hyundai Accent, адаптированная для эксплуатации в российских условиях.",
+      "image": "menus_images/image.jpg",
+      "price": "11000.00",
+      "discount": "12.00",
+      "quantity": 8,
+      "menu": 17
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %} <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">{% endblock css %}
+
+{% block model_carts %}
+{% include "includes/carts_button.html" %}
+{% endblock model_carts %}
+
+{% block content %}
+<div class="container">
+  <div class="row mt-1">
+      <div class="col-lg-2">
+
+      </div>
+      <div class="col-lg-10">
+
+      </div>
+  </div>
+</div>
+{% endblock  %}
+
+{% block footer %}
+<footer class="py-4 bg-dark">
+  <div class="container">
+      <p class="m-0 text-center text-white">&copy; 2025 Copyright Text</p>
+  </div>
+</footer>
+{% endblock footer %}
