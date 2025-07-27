@@ -17,12 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.static import static
+from django.views.generic import TemplateView
 
 from app import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls', namespace='main')),
+    path('about/', TemplateView.as_view(template_name='main/about.html'), name='about'),
     path('menus/' , include('menus.urls', namespace='menus')),
     path('users/' , include('users.urls', namespace='users')),
     path('carts/' , include('carts.urls', namespace='carts')),

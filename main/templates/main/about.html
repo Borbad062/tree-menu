@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %} <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">{% endblock css %}
+
+{% block content %}
+<div class="my-5 pt-5 px-2 pb-2 bg-white custom-shadow rounded">
+  <h2 class="m-2"><strong>О нас</strong></h2>
+  <p class="m-2" style="font-size: 1.2rem;">Текст о том какой классный этот автосалон.</p>
+</div>
+{% endblock  %}
+
+{% block footer %}
+<footer class="py-4 bg-dark">
+  <div class="container">
+      <p class="m-0 text-center text-white">&copy; 2025 Copyright Text</p>
+  </div>
+</footer>
+{% endblock footer %}
